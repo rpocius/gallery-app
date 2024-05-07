@@ -1,3 +1,17 @@
+# Responsive Image Gallery
+
+## Description: 
+A practice projects to build a responsive image gallery that displays a collection of images with a lightbox feature for viewing enlarged images.
+
+## Requirements:
+
+- Create a React-based UI with components for displaying a grid of images.
+- Use a static set of images stored in your project, or fetch images from an external source like Unsplash or a similar API.
+- Implement a lightbox feature that allows users to click on an image to view it in a larger format, with navigation controls to view other images in the gallery.
+- Make the gallery responsive, adjusting the number of columns based on screen size.
+- Bonus: Add a simple search or filter feature to find specific images by keyword or category.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
