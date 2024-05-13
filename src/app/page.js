@@ -4,11 +4,8 @@ import styles from "./page.module.css";
 export default function Home() {
 
   const photos = [
-  'https://unsplash.com/photos/a-single-red-flower-in-a-field-of-blue-flowers-3Lpd6Wo3LJk',
-  'https://unsplash.com/photos/a-group-of-houses-sitting-on-top-of-a-sandy-beach-QxB8Wri4vok',
-  'https://unsplash.com/photos/a-blurry-image-of-a-blue-and-pink-background-zjpsG_CMTmY',
-  'https://unsplash.com/photos/a-person-standing-on-the-side-of-a-road-at-night-k_oHn7XBhVA'
-];
+    '/IMG_1.jpg', '/IMG_2.jpg', '/IMG_3.jpg', '/IMG_4.jpg', '/IMG_5.jpg', '/IMG_6.jpg', '/IMG_7.jpg', '/IMG_8.jpg', '/IMG_9.jpg', '/IMG_10.jpg', '/IMG_11.jpg', '/IMG_12.jpg', '/IMG_13.jpg', '/IMG_14.jpg', '/IMG_15.jpg', '/IMG_16.jpg'
+  ];
 
 function renderPhotos(array) {
   return array.map((element, index) => (
