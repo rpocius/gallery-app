@@ -1,10 +1,12 @@
-.main {
+.gallery {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
   min-height: 100vh;
+  gap: 10px;
 }
+
 
 
